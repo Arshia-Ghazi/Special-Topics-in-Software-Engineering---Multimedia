@@ -35,6 +35,7 @@ Quickstart (synthetic demo)
 
 2) Train on synthetic demo:
    python train.py --data None --epochs 50 --input_dim 379
+
    Note: by None, I mean that you should not include "--data" in your command line.
 
    This will use the synthetic dataset in data_loader.build_synthetic_demo. Replace --data with your .npz to train on real data.
